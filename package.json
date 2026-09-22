@@ -1,0 +1,15 @@
+{
+  "name": "gradewatch-backend",
+  "version": "1.0.0",
+  "description": "Tiny backend for the GradeWatch recheck tracker — stores shared state in MongoDB Atlas",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "mongodb": "^6.8.0",
+    "googleapis": "^140.0.1"
+  }
+}
